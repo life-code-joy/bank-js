@@ -1,0 +1,54 @@
+body {
+  background: url('../img/bank.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: inherit;
+  font-weight: 200;
+  background-color: rgb(204, 204, 204);
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+  color: aliceblue;
+  margin-top: 3rem;
+}
+.about p {
+  color: aliceblue;
+  font-size: 1.5rem;
+  background-color: rgba(167, 167, 167, 0.911);
+  padding: 10px;
+  font-family: serif;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 255, 0.699);
+  letter-spacing: 5px;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: rgb(63, 64, 65);
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  font-size: 1rem;
+  font-family: serif;
+  border-radius: 10px;
+  background-color: rgba(0, 255, 98, 0.699);
+  margin: 0;
+}
+
+.btn:hover {
+  background-color: rgba(229, 229, 248);
+  color: rgb(231, 231, 231);
+  padding: 89px;
+}
